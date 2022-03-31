@@ -5,13 +5,13 @@ Feature: Users should be able to login
   Background:
     Given the user is on login page
 
-  @driver
+  @driver @wip
   Scenario:Login as a driver
 
     When the user enter the driver information
     Then the user should be able to login
 
-  @sales_manager
+  @sales_manager @wip
   Scenario: Login as a sales manager
 
   When the user enter the sales manager information
